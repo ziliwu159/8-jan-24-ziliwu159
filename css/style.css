@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #EEE7DA;
+}
+
+header{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8pc rgba(0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.content-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+span {
+    color: aqua;
+}
+
+.content-body {
+    display: flex;
+    gap: 20px;
+}
+
+.content-body .card h3{
+    text-align: center;
+}
+
+.captions {
+    display: flex;
+    gap: 16px;
+}
+.captions img {
+    width: 15rem;
+    height: 13rem;
+    margin: auto;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.container-input {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex-grow: 3;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;font-size: 16px;
+    font-size: 16px;
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #da1b60, #ff8a00);
+}
+
+button:active {
+    transform: translateY(2px);
+    background-color: #ffa62b;
+    box-shadow: 2px 2px #e4e4e4;
+}
+
+#resultArea, #resultPerimeter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+#resultArea input:focus , #resultPerimeter input:focus {
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #1badda97, #ff8800a7);
+    color: #fff;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MINI PROJECT REVO U</title>
+    <link rel="icon" href="image/yu.jpg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Katik | Kalkulator Matematik</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="content-header">
+            <h2>Welcome to Katik<span> By Yulia Pipka Ziliwu</span></h2>
+            <p>Mari Berhitung luas dan keliling bangun datar!</p>
+          </div>
+          <div class="content-body">
+            <div class="card">
+              <h3>Luas Persegi</h3>
+              <div class="captions">
+                <img src="image/persegi.jpeg" alt="Persegi Image" />
+              </div>
+              <p>
+                Luas persegi dihitung dengan panjang sisi dengan lebar sisi.
+              </p>
+              <p>L = S x S</p>
+              <p>S adalah sisi persegi.</p>
+            </div>
+          </div>
+          <form id="calculatorArea">
+            <label for="luas">Hitung Luas Persegi</label>
+            <div class="container-input">
+              <input type="number" id="luas" required />
+              <button type="submit">Hitung</button>
+              <button type="reset" id="resetLuas">Reset</button>
+            </div>
+          </form>
+          <div id="resultArea"></div>
+
+          <div class="card">
+            <h3>Keliling Persegi</h3>
+            <div class="captions">
+              <img src="image/persegi.jpeg" alt="Persegi Image" />
+            </div>
+            <p>Keliling persegi dihitung dengan menjumlahkan keempat sisi.</p>
+            <p>K = 4 x S</p>
+            <p>S adalah sisi persegi.</p>
+          </div>
+          <form id="calculatorPerimeter">
+            <label for="keliling">Hitung Keliling Persegi</label>
+            <div class="container-input">
+              <input type="number" id="keliling" required />
+              <button type="submit">Hitung</button>
+              <button type="reset" id="resetKeliling">Reset</button>
+            </div>
+          </form>
+          <div id="resultPerimeter"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        <a
+          href="https://github.com/revou-fundamental-course/8-jan-24-ziliwu159.git"
+          style="color: bisque"
+          >&copy; 2024 by YULIA PIPKA ZILIWU</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
